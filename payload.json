@@ -1,0 +1,10 @@
+{
+    "Name": "web",
+    "Service": {
+      "Service": "web",
+      "Tags": ["v1.1.1"],
+      "Failover": {
+        "Datacenters": ["dc1", "dc2"]
+      }
+    }
+  }
